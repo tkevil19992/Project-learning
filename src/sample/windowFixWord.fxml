@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerFixWord">
+   <children>
+      <TextField fx:id="textFieldFixWord" layoutX="230.0" layoutY="41.0" prefHeight="25.0" prefWidth="292.0" />
+      <CheckBox fx:id="checkBoxFixWordEng" layoutX="312.0" layoutY="92.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="142.0" text="Sửa từ Tiếng Anh">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <CheckBox fx:id="checkBoxFixMeanning" layoutX="310.0" layoutY="252.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="133.0" text="Sửa Nghĩa">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <TextField fx:id="wordFixed" layoutX="278.0" layoutY="144.0" prefHeight="25.0" prefWidth="196.0" />
+      <Label alignment="CENTER" layoutX="175.0" layoutY="144.0" prefHeight="25.0" prefWidth="75.0" text="Sửa thành">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonCancel" layoutX="613.0" layoutY="654.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="56.0" text="Cancel" />
+      <Button fx:id="buttonOK" layoutX="522.0" layoutY="654.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="56.0" text="OK" />
+      <Label alignment="CENTER" layoutX="135.0" layoutY="43.0" prefHeight="21.0" prefWidth="82.0" text="Nhập từ">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="buttonCheck" layoutX="564.0" layoutY="38.0" mnemonicParsing="false" prefHeight="32.0" prefWidth="56.0" text="Check">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <CheckBox fx:id="checkBoxPronounce" layoutX="312.0" layoutY="183.0" mnemonicParsing="false" prefHeight="21.0" prefWidth="133.0" text="Sửa phát âm">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </CheckBox>
+      <TextField fx:id="textFieldPronounce" layoutX="276.0" layoutY="221.0" prefHeight="25.0" prefWidth="196.0" />
+      <TextArea fx:id="textAreaFixMeaning" layoutX="228.0" layoutY="303.0" prefHeight="330.0" prefWidth="292.0" />
+   </children>
+</AnchorPane>

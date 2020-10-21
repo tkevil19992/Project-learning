@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane prefHeight="80.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.ControllerNotiRemoveWord">
+   <children>
+      <Label alignment="CENTER" prefHeight="46.0" prefWidth="307.0" text="Xóa từ thành công">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Button fx:id="cancelNoti" layoutX="201.0" layoutY="46.0" mnemonicParsing="false" onAction="#cancel" prefHeight="26.0" prefWidth="72.0" text="Cancel" />
+   </children>
+</AnchorPane>
